@@ -251,11 +251,6 @@ input, button, select, textarea {
     background-color: #043B56;
 }
 
-
-.jumbotron {
-    margin:15px;
-}
-
 .container .navbar-nav li.active > a {
     color: #ffffff;
 }
@@ -361,7 +356,9 @@ input, button, select, textarea {
 
 .jumbotron {
     
-    background-image: url("https://www.four51.com/Themes/Custom/0426a841-cea4-4a6c-8fc2-61653e5c2926/kuka-jumbotron.jpg");
+    padding: 0;
+    margin: 0;
+
 }
 
 h5, .h5 {
@@ -397,13 +394,14 @@ body a{
 
 .featured-well {
     margin-bottom: 0px;
-    border: 1px solid #cccccc;
+    border: 1px solid #fff;
+    height: 200px;
 }
 .featured-image {
     max-height: 150px;
 }
 .featured-name {
-    background-color: #cccccc;
+    background-color: #fff;
     color: #ffffff;
     margin-bottom: 20px;
 }

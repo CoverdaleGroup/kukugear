@@ -28,11 +28,11 @@
     -->
         <div class="col-collapse" ng-class="{ 'col-md-12': navStatus.visible }" >
             <!--<div class="col-collapse" ng-class="{ 'col-md-9': navStatus.visible }" > -->
-
-            <categorylistview></categorylistview>
             <div ng-show="isActive('catalog')">
                 <featuredproducts></featuredproducts>
             </div>
+            <categorylistview></categorylistview>
+
             <loadingindicator ng-show="productLoadingIndicator" title="{{'Please wait while we fetch all products' | r | xlat}}"/>
 
             <productlistview></productlistview>

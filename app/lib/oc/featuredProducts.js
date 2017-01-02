@@ -15,7 +15,7 @@ function featuredproducts() {
 
     function template() {
         return [
-            '<h3>Featured Products</h3>',
+            '<h5 style="padding-left: 10px; font-size: 24px; color: #000000;">Featured Products</h5>',
             '<div class="row">',
             '<div class="col-md-3" ng-repeat="FeaturedProduct in featProducts">',
             '<div class="well featured-well">',
@@ -50,10 +50,10 @@ function FeatProdCtrl($scope, Product) {
 
     //list of up to 4 featured items.
     $scope.featuredList = [
-        "PRODUCTAPIINTEROPID1",
-        "PRODUCTAPIINTEROPID2",
-        "PRODUCTAPIINTEROPID3",
-        "PRODUCTAPIINTEROPID4"
+        "FP_2_APIINTEROPID",
+        "FP_3_APIINTEROPID",
+        "FP_4_APIINTEROPID",
+        "FP_5_APIINTEROPID"
     ];
 
     //loop through each featured item and use the Product service to return the needed object
