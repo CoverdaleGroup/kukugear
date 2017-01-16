@@ -50,10 +50,11 @@ function FeatProdCtrl($scope, Product) {
 
     //list of up to 4 featured items.
     $scope.featuredList = [
-        "FP_2_APIINTEROPID",
-        "FP_3_APIINTEROPID",
-        "FP_4_APIINTEROPID",
-        "FP_5_APIINTEROPID"
+        
+        "IMPL007",
+        "IMPL018",
+        "IMPL034",
+        "IMPL055"
     ];
 
     //loop through each featured item and use the Product service to return the needed object
