@@ -50,7 +50,7 @@ function FeatProdCtrl($scope, Product) {
 
     //list of up to 4 featured items.
     $scope.featuredList = [
-        
+
         "IMPL007",
         "IMPL018",
         "IMPL034",
